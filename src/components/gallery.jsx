@@ -3,6 +3,7 @@ import ImageGallery from "react-image-gallery";
 import { Divider } from "antd";
 import styled from "styled-components";
 
+import GalleryPhoto0 from "../assets/KakaoTalk_20250720_144022019_03.jpg";
 import GalleryPhoto1 from "../assets/Gallery_Photo_1.webp";
 import GalleryPhoto2 from "../assets/Gallery_Photo_2.webp";
 import GalleryPhoto3 from "../assets/Gallery_Photo_3.webp";
@@ -26,6 +27,10 @@ const Title = styled.p`
 `;
 
 const images = [
+  {
+    original: GalleryPhoto0,
+    thumbnail: GalleryPhoto0,
+  },
   {
     original: GalleryPhoto1,
     thumbnail: GalleryPhoto1,
