@@ -1,7 +1,7 @@
 export const WEDDING_INVITATION_URL = "http://localhost:8000/";
 export const KAKAOTALK_API_TOKEN = "9c0e621465bf328dcc03f237deabba5d";
-export const KAKAOTALK_SHARE_IMAGE =
-  "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_960_720.jpg";
+export const KAKAOTALK_SHARE_IMAGE = "../assets/wedding_photo01.jpg";
+  // "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_960_720.jpg";
 
 export const WEDDING_DATE = "2025년 10월 18일, 토요일 낮 12시";
 export const WEDDING_LOCATION = "청주 갤러리카페111";
