@@ -3,7 +3,7 @@ export const KAKAOTALK_API_TOKEN = "JavaScript 키 입력";
 export const KAKAOTALK_SHARE_IMAGE =
   "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_960_720.jpg";
 
-export const WEDDING_DATE = "2025년 10월 18일, 토요일 낮 12시 00분";
+export const WEDDING_DATE = "2025년 10월 18일, 토요일 낮 12시";
 export const WEDDING_LOCATION = "청주 갤러리카페111";
 
 export const GROOM_NAME = "배한샘";
