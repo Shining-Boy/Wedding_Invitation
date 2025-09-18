@@ -3,11 +3,11 @@ import ImageGallery from "react-image-gallery";
 import { Divider } from "antd";
 import styled from "styled-components";
 
-import GalleryPhoto0 from "../assets/KakaoTalk_20250720_144022019_03.jpg";
-import GalleryPhoto1 from "../assets/Gallery_Photo_1.webp";
-import GalleryPhoto2 from "../assets/Gallery_Photo_2.webp";
-import GalleryPhoto3 from "../assets/Gallery_Photo_3.webp";
-import GalleryPhoto4 from "../assets/Gallery_Photo_4.webp";
+import GalleryPhoto0 from "../assets/wedding_photo01.jpg";
+import GalleryPhoto1 from "../assets/wedding_photo02.jpg";
+import GalleryPhoto2 from "../assets/wedding_photo03.jpg";
+import GalleryPhoto3 from "../assets/wedding_photo04.jpg";
+import GalleryPhoto4 from "../assets/wedding_photo05.jpg";
 import GalleryPhoto5 from "../assets/Gallery_Photo_5.webp";
 import GalleryPhoto6 from "../assets/Gallery_Photo_6.webp";
 
@@ -47,14 +47,14 @@ const images = [
     original: GalleryPhoto4,
     thumbnail: GalleryPhoto4,
   },
-  {
-    original: GalleryPhoto5,
-    thumbnail: GalleryPhoto5,
-  },
-  {
-    original: GalleryPhoto6,
-    thumbnail: GalleryPhoto6,
-  },
+  // {
+  //   original: GalleryPhoto5,
+  //   thumbnail: GalleryPhoto5,
+  // },
+  // {
+  //   original: GalleryPhoto6,
+  //   thumbnail: GalleryPhoto6,
+  // },
 ];
 
 const Gallery = () => {
