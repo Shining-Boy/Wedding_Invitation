@@ -38,8 +38,8 @@ const WeddingInvitation = styled.p`
 `;
 
 const GroomBride = styled.p`
-  color: red,
-  font-size: 1.5rem;
+  color: black,
+  font-size: 2.0rem;
   font-weight: bold;
   opacity: 0.9;
   margin-bottom: 16px;
