@@ -37,7 +37,8 @@ const WeddingInvitation = styled.p`
 `;
 
 const GroomBride = styled.p`
-  font-size: 1.5rem;
+  color: black;
+  font-size: 1.8rem;
   font-weight: bold;
   opacity: 0.9;
   margin-bottom: 16px;
