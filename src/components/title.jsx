@@ -6,8 +6,7 @@ import {
   GROOM_NAME,
   BRIDE_NAME,
 } from "../../config.js";
-import BackgroundVideo from "../assets/BackgroundVideo.mp4";
-import GroovePaper from "../assets/GroovePaper.png";
+import BackgroundImage from "../assets/BackgroundImage.jpg"; // 여기에 이미지 경로
 
 const Layout = styled.div`
   width: 70%;
@@ -22,12 +21,12 @@ const TitleWrapper = styled.div`
   font-weight: 500 !important;
   color: var(--title-color);
   animation: fadein 3s;
-  -moz-animation: fadein 3s; /* Firefox */
-  -webkit-animation: fadein 3s; /* Safari and Chrome */
-  -o-animation: fadein 3s; /* Opera */
+  -moz-animation: fadein 3s;
+  -webkit-animation: fadein 3s;
+  -o-animation: fadein 3s;
 `;
 
-const VideoBackground = styled.video`
+const Background = styled.img`
   width: 100%;
 `;
 
@@ -49,6 +48,7 @@ const Schedule = styled.p`
   opacity: 0.65;
   margin-bottom: 24px;
 `;
+
 const Title = () => {
   return (
     <Layout>
@@ -63,9 +63,7 @@ const Title = () => {
           {WEDDING_LOCATION}
         </Schedule>
       </TitleWrapper>
-      <VideoBackground autoPlay loop muted playsInline={true}>
-        <source src={BackgroundVideo} type="video/mp4" />
-      </VideoBackground>
+      <Background src={BackgroundImage} alt="Wedding background" />
     </Layout>
   );
 };
